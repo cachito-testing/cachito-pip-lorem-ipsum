@@ -6,6 +6,11 @@
 #
 certifi==2020.6.20        # via requests
 chardet==3.0.4            # via requests
+git+https://github.com/containerbuildsystem/dockerfile-parse@ed38dc2eadf6890b524340f45a7d172d02196e61#egg=dockerfile-parse  # via -r requirements.in
 idna==2.10                # via requests
+https://github.com/containerbuildsystem/operator-manifest/archive/v0.0.3.zip#egg=operator-manifest&cachito_hash=sha256:bf07a297a64f5003b7a0174d2e6b1b34bd1095833c70d898e7ff8276c82a23dc  # via -r requirements.in
 requests==2.24.0          # via -r requirements.in
+ruamel.yaml.clib==0.2.2   # via ruamel.yaml
+ruamel.yaml==0.16.12      # via operator-manifest
+six==1.15.0               # via dockerfile-parse
 urllib3==1.25.10          # via requests

@@ -1,1 +1,3 @@
 requests
+git+https://github.com/containerbuildsystem/dockerfile-parse@ed38dc2eadf6890b524340f45a7d172d02196e61#egg=dockerfile-parse
+https://github.com/containerbuildsystem/operator-manifest/archive/v0.0.3.zip#egg=operator-manifest&cachito_hash=sha256:bf07a297a64f5003b7a0174d2e6b1b34bd1095833c70d898e7ff8276c82a23dc
